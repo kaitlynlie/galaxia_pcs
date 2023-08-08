@@ -19,7 +19,7 @@ const Neptune = () => {
       className={`${styles.innerWidth} mx-auto flex flex-col`}>
         <TypingText title='The Neptune Set' textStyles='text-center' />
         <TitleText title={"Shop Neptune's Collection"} textStyles='text-center items-center justify-center'/>
-        <div className="mt-[50px] flex max-[1180px]:flex-col flex-row justify-center items-center">
+        <div className="mt-[50px] flex max-[1162px]:flex-col flex-row justify-center items-center">
           {neptuneSet.map((feature) => (
               <PCcard key={feature.title} {...feature}/>
             ))}

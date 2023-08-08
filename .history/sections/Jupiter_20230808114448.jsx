@@ -18,7 +18,7 @@ const Jupiter = () => {
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <TypingText title='The Jupiter Set' textStyles='text-center' />
           <TitleText title={"Shop Jupiter's Collection"} textStyles='text-center'/>
-          <div className="mt-[50px] flex max-[1180px]:flex-col flex-row justify-center items-center">
+          <div className="mt-[50px] flex lg:flex-row flex-col justify-center items-center">
             {jupiterSet.map((feature) => (
                 <PCcard key={feature.title} {...feature}/>
               ))}

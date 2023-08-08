@@ -17,8 +17,8 @@ const Jupiter = () => {
         viewport={{ once: true, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}>
           <TypingText title='The Jupiter Set' textStyles='text-center' />
-          <TitleText title={"Shop Jupiter's Collection"} textStyles='text-center'/>
-          <div className="mt-[50px] flex max-[1180px]:flex-col flex-row justify-center items-center">
+          <TitleText title={"Shop Jupiter's Collection"} textStyles='lg:text-start text-center'/>
+          <div className="mt-[50px] flex lg:flex-row flex-col justify-between items-center">
             {jupiterSet.map((feature) => (
                 <PCcard key={feature.title} {...feature}/>
               ))}

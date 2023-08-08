@@ -18,8 +18,8 @@ const Neptune = () => {
       viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}>
         <TypingText title='The Neptune Set' textStyles='text-center' />
-        <TitleText title={"Shop Neptune's Collection"} textStyles='text-center items-center justify-center'/>
-        <div className="mt-[50px] flex max-[1180px]:flex-col flex-row justify-center items-center">
+        <TitleText title={"Shop Neptune's Collection"} textStyles='lg:text-start text-center items-center'/>
+        <div className="mt-[50px] flex lg:flex-row flex-col justify-center items-center">
           {neptuneSet.map((feature) => (
               <PCcard key={feature.title} {...feature}/>
             ))}

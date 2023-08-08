@@ -8,7 +8,7 @@ import Button from "./Button";
 const PCcard = ({ imgUrl, title, price, xprice}) => (
   <motion.div
     variants={fadeIn('up', 'spring', 0.5, 0.75)}
-    className={`flex flex-center flex-col items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:mt-0 mt-12 text-white border-2 p-12 border-gray-500`}
+    className={`flex flex-center flex-col items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:mt-0 mt-12 text-white border-2 p-10 border-gray-500`}
   >
     <img 
       src={imgUrl}
