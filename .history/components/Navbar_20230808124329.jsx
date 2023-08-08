@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex justify-end items-end flex-col text-end bg-[#026884ce] p-3 absolute top-[40px] right-[10px] mt-1 rounded-[5px] shadow z-10">
           <div className="none">
             <ul className='flex justify-end items-end flex-col text-white text-end p-1'>
-              <Link onClick={openNav} to='/pc'><li><a>Gaming PCs</a></li></Link>
+              <li><a href='#pc'>Gaming PCs</a></li>
               <Link onClick={openNav} to='/community'><li className="mt-2 pointer"><a>Community</a></li></Link>
               <Link onClick={openNav} to='/creator'><li className="mt-2 pointer"><a>Creator Program</a></li></Link>
             </ul>
