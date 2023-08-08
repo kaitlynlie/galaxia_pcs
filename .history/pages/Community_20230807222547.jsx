@@ -13,7 +13,7 @@ const Community = () => (
     </div>
     <div className='relative'>
       <Video />
-      <div className={`${styles.xPaddings} md:px-[100px] mt-10 items-center flex-col flex justify-between relative`}>
+      <div className={`${styles.innerWidth} ${styles.xPaddings} md:px-[100px] mt-10 items-center flex-col flex justify-between relative`}>
           <TypingText title='WHO WE ARE' textStyles='text-center' />
           <div className="font-normal text-center text-secondary-white mt-10 flex-col flex flex-center">
               <span className="font-extrabold text-white sm:text-[32px] text-[20px]">THE TEAM</span>
