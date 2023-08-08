@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 const People = () => (
     <section className={`${styles.xPaddings} relative z-10 py-8 flex flex-col justify-center items-center mt-10`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-row max-[1234px]:flex-col flex justify-between`}>
-        <div className='mr-24 max-[1234px]:mr-0'>
+        <div className='mr-8'>
           <TypingText title='WHO WE ARE' textStyles='text-start max-[1234px]:text-center' />
           <div className="font-normal text-start max-[1234px]:text-center text-secondary-white mt-10 flex-col flex flex-center">
               <span className="font-extrabold text-white sm:text-[32px] text-[20px]">THE TEAM</span>
@@ -32,7 +32,7 @@ const People = () => (
             className="z-10 relative w-[90%] h-[90%]"
           />
 
-        <div className='ml-24 max-[1234px]:ml-0 max-[1234px]:mt-20'>
+        <div className='ml-12 max-[1234px]:mt-20'>
           <TypingText title='WHO WE ARE' textStyles='text-start max-[1234px]:text-center' />
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}

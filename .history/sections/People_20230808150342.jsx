@@ -32,7 +32,7 @@ const People = () => (
             className="z-10 relative w-[90%] h-[90%]"
           />
 
-        <div className='ml-24 max-[1234px]:ml-0 max-[1234px]:mt-20'>
+        <div className='ml-24 max-[1234px]:mt-20'>
           <TypingText title='WHO WE ARE' textStyles='text-start max-[1234px]:text-center' />
           <motion.div
             variants={fadeIn('up', 'tween', 0.2, 1)}
