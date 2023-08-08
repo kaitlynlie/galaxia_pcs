@@ -62,11 +62,11 @@ export const creators = [
   },
   {
     number: 2,
-    subtitle: 'If you have been accepted to our program, then congratulations! You will receive a welcome email, tracking link, creator panel, and more you will need to be a GALAXIA creator.'
+    subtitle: 'We offer a 1 year full parts and labor warranty in case anything happens, so you can spend your time having fun instead fo worrying.'
   },
   {
     number: 3,
-    subtitle: 'Once your creator panel is up and running, you will receive 5% of every sale you make by using your link!'
+    subtitle: 'We are not lying when we say we have the highest performing PCs in the galaxy, with quality parts and expert craftmanship for the best experience.'
   }
 ]
 

@@ -66,7 +66,7 @@ export const creators = [
   },
   {
     number: 3,
-    subtitle: 'Once your creator panel is up and running, you will receive 5% of every sale you make by using your link!'
+    subtitle: 'We are not lying when we say we have the highest performing PCs in the galaxy, with quality parts and expert craftmanship for the best experience.'
   }
 ]
 
