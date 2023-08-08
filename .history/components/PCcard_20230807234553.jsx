@@ -8,13 +8,15 @@ import Button from "./Button";
 const PCcard = ({ imgUrl, title, price, xprice}) => (
   <motion.div
     variants={fadeIn('up', 'spring', 0.5, 0.75)}
-    className={`flex flex-center flex-col items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:mt-0 mt-12 text-white border-2 p-4 border-gray-500`}
+    className={`flex flex-center flex-col items-center justify-center transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer lg:mt-0 mt-12 text-white border-4 p-4 border-gray-500`}
   >
+    <div>
     <img 
       src={imgUrl}
       alt={title}
       className="w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300"
     />
+    </div>
       <h3 className="font-semibold sm:text-[32px] text-[20px] text-white z-0 mt-[36px]">
         {title}
       </h3>

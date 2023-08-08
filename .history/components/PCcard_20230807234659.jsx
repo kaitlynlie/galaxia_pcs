@@ -13,7 +13,7 @@ const PCcard = ({ imgUrl, title, price, xprice}) => (
     <img 
       src={imgUrl}
       alt={title}
-      className="w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300"
+      className="w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300 border-1 border-gray-500"
     />
       <h3 className="font-semibold sm:text-[32px] text-[20px] text-white z-0 mt-[36px]">
         {title}
