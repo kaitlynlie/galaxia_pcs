@@ -1,4 +1,8 @@
-# React + Vite
+# GALAXIA
+
+A website for a company that builds PCs centered around gaming that delivers the highest performance with the best materials.
+
+![galaxia](https://github.com/kaitlynlie/galaxia_pcs/assets/87097847/d90a9685-ea87-4806-b346-20c08ebd0e14)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
