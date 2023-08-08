@@ -13,9 +13,9 @@ const Community = () => (
     </div>
     <div className='relative'>
       <Video />
-      <div className={`w-full ${styles.xPaddings} md:px-[100px] mt-10 items-center flex-col flex justify-between relative mb-20`}>
+      <div className={`w-full ${styles.xPaddings} md:px-[100px] mt-10 items-center flex-col flex justify-between relative`}>
           <TypingText title='WHO WE ARE' textStyles='text-center' />
-          <div className={`${styles.xPaddings} font-normal text-center text-secondary-white mt-10 flex-col flex flex-center`}>
+          <div className="font-normal text-center text-secondary-white mt-10 flex-col flex flex-center">
               <span className="font-extrabold text-white sm:text-[32px] text-[20px]">THE TEAM</span>
               <p className="text-[20px] text-white">Here at GALAXIA, our goal is to create the best PCs in the galaxy, and each one of us has a deep passion and takes pride in building and designing PCs. We are working to build top performance PCs that you will love, and we will enjoy the process of it.</p>
           </div>
