@@ -6,6 +6,7 @@ import WhyUs from './WhyUs';
 import People from './People';
 import Video from './Video'
 import Program from './Program'
+import Member from './Member'
 
 export {
   Hero,
@@ -15,5 +16,6 @@ export {
   WhyUs,
   People,
   Video,
-  Program
+  Program,
+  Member
 };
