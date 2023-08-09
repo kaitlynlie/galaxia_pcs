@@ -25,7 +25,7 @@ const PickPC = () => {
             <div className="text-center text-white mb-20 font-bold">
                 <TypingText title='OUR PCS' textStyles='text-center' />
                 <span className="font-extrabold text-white sm:text-[32px] text-[20px]">Choose from a variety of our amazing PCs <br className="max-[1192px]:hidden block"/> for your next adventure</span>
-                <p className="mt-6 font-normal">From our range of prices, you can select the one that best suits you. Fast, reliable, and good looking, our PCs are ready to take you to the next level.</p>
+                <p className="mt-8">From our range of prices, you can select the one that best suits you. Fast, reliable, and good looking, our PCs are ready to take you to the next level.</p>
             </div>
             
             <div className="min-[1192px]:flex flex-none max-[1192px]:flex-col justify-between items-center gap-40">

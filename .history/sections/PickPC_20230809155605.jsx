@@ -20,15 +20,14 @@ const PickPC = () => {
     };
 
   return (
-    <section className={`${styles.xPaddings} flex justify-center items-center mt-20 mb-20`}>
-        <div className="flex flex-col p-10">
+    <section className={`${styles.xPaddings} flex-1 mx-20justify-center items-center mt-20 mb-20`}>
+        <div className="flex flex-col bg-[#323f5d] p-20">
             <div className="text-center text-white mb-20 font-bold">
                 <TypingText title='OUR PCS' textStyles='text-center' />
-                <span className="font-extrabold text-white sm:text-[32px] text-[20px]">Choose from a variety of our amazing PCs <br className="max-[1192px]:hidden block"/> for your next adventure</span>
-                <p className="mt-6 font-normal">From our range of prices, you can select the one that best suits you. Fast, reliable, and good looking, our PCs are ready to take you to the next level.</p>
+                <span className="font-extrabold text-white sm:text-[32px] text-[20px]">Choose from a variety of our amazing PCs for your next adventure</span>
             </div>
             
-            <div className="min-[1192px]:flex flex-none max-[1192px]:flex-col justify-between items-center gap-40">
+            <div className="min-[976px]:flex flex-none max-[976px]:flex-col justify-between items-center gap-1">
               <div className="flex-col flex gap-2">
                 <button
                   className={`${coloringButton("btn1")} text-2xl font-titles font-semibold border-none cursor-pointer px-6 py-4 bg-gray-300 transition-colors duration-200 text-left hover:bg-[#25618B] hover:text-white`}
@@ -93,7 +92,7 @@ const PickPC = () => {
 
             {active === "First" &&
             <div className="justify-center items-center flex">
-            <img src="/pc3.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" />
+            <img src="/pc3.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" />
             </div>
             }
 
@@ -117,7 +116,7 @@ const PickPC = () => {
 
             {active === "Second" && 
             
-            <div className="justify-center items-center flex"><img src="/pc2.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
+            <div className="justify-center items-center flex"><img src="/pc2.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
             {active === "Second" &&     
             <div className="flex items-center justify-center flex-col">      
                 <div className="flex flex-col items-center justify-between">
@@ -136,7 +135,7 @@ const PickPC = () => {
                 </div>
             </div>}
 
-            {active === "Third" && <div className="justify-center items-center flex"><img src="/pc1.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
+            {active === "Third" && <div className="justify-center items-center flex"><img src="/pc1.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
             {active === "Third" &&     
             <div className="flex items-center justify-center flex-col">      
                 <div className="flex flex-col items-center justify-between">
@@ -156,7 +155,7 @@ const PickPC = () => {
                 </div>
             </div>}
 
-            {active === "Fourth" && <div className="justify-center items-center flex"><img src="/pc4.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
+            {active === "Fourth" && <div className="justify-center items-center flex"><img src="/pc4.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
             {active === "Fourth" &&     
             <div className="flex items-center justify-center flex-col">      
                 <div className="flex flex-col items-center justify-between">
@@ -176,7 +175,7 @@ const PickPC = () => {
                 </div>
             </div>}
 
-            {active === "Fifth" && <div className="justify-center items-center flex"><img src="/pc5.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
+            {active === "Fifth" && <div className="justify-center items-center flex"><img src="/pc5.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
             {active === "Fifth" &&     
             <div className="flex items-center justify-center flex-col">      
                 <div className="flex flex-col items-center justify-between">
@@ -196,7 +195,7 @@ const PickPC = () => {
                 </div>
             </div>}
 
-            {active === "Sixth" && <div className="justify-center items-center flex"><img src="/pc6.png" className="max-[1192px]:mb-20 max-[1192px]:mt-20 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
+            {active === "Sixth" && <div className="justify-center items-center flex"><img src="/pc6.png" className="max-[976px]:mb-10 max-[976px]:mt-10 w-[281px] h-[336px] hover:scale-110 hover:brightness-75 transition-all duration-300" /></div>}
             {active === "Sixth" &&     
             <div className="flex items-center justify-center flex-col">      
                 <div className="flex flex-col items-center justify-between">
