@@ -7,6 +7,7 @@ import People from './People';
 import Video from './Video'
 import Program from './Program'
 import Member from './Member'
+import Testimonials from './Testimonials';
 
 export {
   Hero,
@@ -17,5 +18,6 @@ export {
   People,
   Video,
   Program,
-  Member
+  Member,
+  Testimonials
 };

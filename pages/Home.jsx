@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { Triton, Neptune, Jupiter, Hero, WhyUs, Member } from '../sections';
+import { Triton, Neptune, Jupiter, Hero, WhyUs, Member, Testimonials } from '../sections';
 import React from 'react'
 import PickPC from '../sections/PickPC';
 
@@ -23,6 +23,7 @@ const Home = () => (
     </div>
     <div className='relative'>
       <WhyUs />
+      <Testimonials />
       {/* <div className='gradient-04 z-0' /> */}
       <Footer />
     </div>
