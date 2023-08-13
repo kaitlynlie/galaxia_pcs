@@ -4,7 +4,7 @@ import styles from '../styles'
 
 const Member = () => {
   return (
-    <section className={`${styles.xPaddings} relative z-10 py-20 flex flex-col justify-center items-center bg-[url('/banner.jpeg')]`}>
+    <section className={`${styles.xPaddings} relative z-10 py-20 flex flex-col justify-center items-center bg-[url('public/banner.jpeg')]`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-col flex justify-center`}>
           <TypingText title='ONE OF US' textStyles='text-center' />
           <div className="font-normal text-center text-secondary-white flex-col flex flex-center items-center justify-center">
