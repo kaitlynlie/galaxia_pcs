@@ -1,7 +1,0 @@
-{
-    "build": {
-      "optimize": {
-        "images": false
-      }
-    }
-  }
