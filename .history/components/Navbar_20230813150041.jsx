@@ -59,7 +59,7 @@ const Navbar = () => {
         )}
         </div>
 
-        <div className="flex flex-row gap-4 items-center max-[912px]:hidden block">
+        <div className="flex flex-row gap-4 items-center max-[880px]:hidden block">
         <img
           src='./user.svg'
           alt='user'

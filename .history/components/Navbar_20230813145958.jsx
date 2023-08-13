@@ -34,14 +34,14 @@ const Navbar = () => {
           </motion.h1></Link>
       </div>
 
-      <ul className='flex justify-center items-center text-white max-[912px]:hidden block z-10'>
+      <ul className='flex justify-center items-center text-white max-[880px]:hidden block z-10'>
       <Link onClick={openNav} to='/'><li className="mr-12"><a>Home</a></li></Link>
         <Link onClick={openNav} to='/pc'><li className="mr-12"><a>Gaming PCs</a></li></Link>
         <Link onClick={openNav} to='/community'><li className="mr-12"><a>Community</a></li></Link>
         <Link onClick={openNav} to='/creator'><li><a>Creator Program</a></li></Link>
       </ul>
 
-      <div className="relative ml-1 pointer max-[912px]:block hidden z-10">
+      <div className="relative ml-1 pointer max-[880px]:block hidden z-10">
         {toggleMenu
           ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
@@ -59,7 +59,7 @@ const Navbar = () => {
         )}
         </div>
 
-        <div className="flex flex-row gap-4 items-center max-[912px]:hidden block">
+        <div className="flex flex-row gap-4 items-center max-[880px]:hidden block">
         <img
           src='./user.svg'
           alt='user'
