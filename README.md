@@ -2,7 +2,7 @@
 
 A website for a company that builds PCs centered around gaming that delivers the highest performance with the best materials.
 
-![galaxia](https://github.com/kaitlynlie/galaxia_pcs/assets/87097847/d90a9685-ea87-4806-b346-20c08ebd0e14)
+![galaxia](https://github.com/kaitlynlie/galaxia_pcs/assets/87097847/c4c78b75-5dc1-443e-8ef6-c89b17c2439a)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
