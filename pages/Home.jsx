@@ -14,6 +14,11 @@ const Home = () => (
     <div className='relative'>
       <Triton />
       <Tiles />
+      {/* <img
+            src='./tiles.png'
+            alt='tiles'
+            className="z-0 absolute w-screen h-screen object-cover object-center opacity-50"
+      /> */}
       {/* <div className='gradient-03 z-0' /> */}
       <PickPC />
       <Member />
@@ -24,6 +29,11 @@ const Home = () => (
     </div>
     <div className='relative'>
       <WhyUs />
+      <img
+            src='./testimonials.png'
+            alt='testimonials'
+            className="z-0 absolute w-screen object-cover object-center opacity-50"
+      />
       <Testimonials />
       {/* <div className='gradient-04 z-0' /> */}
       <Footer />

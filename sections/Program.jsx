@@ -6,7 +6,7 @@ import { creators } from '../constants'
 
 const Program = () => {
   return (
-    <section className={`${styles.xPaddings} relative z-10 py-8 flex flex-col justify-center items-center mt-10`}>
+    <section className={`${styles.xPaddings} relative z-1 py-8 flex flex-col justify-center items-center mt-10`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-col flex justify-center`}>
           <TypingText title='EARN 5% COMMISSION' textStyles='text-center' />
           <div className="font-normal text-center text-secondary-white mt-10 flex-col flex flex-center items-center justify-center">
