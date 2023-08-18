@@ -7,7 +7,7 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 import { whyUs } from '../constants'
 
 const WhyUs = () => (
-  <section className={`${styles.paddings} relative z-10 flex flex-col justify-center items-center mt-20 mb-24`}>
+  <section className={`${styles.paddings} relative z-10 flex flex-col justify-center items-center mt-20 mb-20`}>
     <img src='./whyus.png'
               alt='why us'
               className="h-[500px] w-[500px] mb-20 max-w-[700px]"
