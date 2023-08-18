@@ -6,7 +6,7 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const People = () => (
-    <section className={`${styles.xPaddings} relative z-1 py-8 flex flex-col justify-center items-center mt-4`}>
+    <section className={`${styles.xPaddings} relative z-1 py-8 flex flex-col justify-center items-center mt-20`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-row max-[1234px]:flex-col flex justify-between`}>
         <div className='grid grid-cols-2 grid-rows-2 w-full max-[620px]:grid-cols-1'>
           <div className='w-full bg-gray-300 h-[20rem] flex flex-col justify-center items-center text-center px-[100px] max-[1151px]:px-[10px]'>

@@ -16,7 +16,7 @@ const Video = () => {
     }
   }
   return (
-    <div className={`h-screen relative mt-40 max-[1200px]:px-0 px-40 max-[1200px]:py-0`}>
+    <div className={`h-screen relative mt-20 mb-20 max-[1200px]:px-0 px-40 py-20 max-[1200px]:py-0`}>
       <video
         src={video}
         ref={vidRef}

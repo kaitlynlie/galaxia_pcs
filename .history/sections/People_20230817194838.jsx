@@ -6,15 +6,15 @@ import styles from '../styles';
 import { fadeIn, staggerContainer } from '../utils/motion';
 
 const People = () => (
-    <section className={`${styles.xPaddings} relative z-1 py-8 flex flex-col justify-center items-center mt-4`}>
+    <section className={`${styles.xPaddings} relative z-1 py-8 flex flex-col justify-center items-center mt-10`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-row max-[1234px]:flex-col flex justify-between`}>
         <div className='grid grid-cols-2 grid-rows-2 w-full max-[620px]:grid-cols-1'>
-          <div className='w-full bg-gray-300 h-[20rem] flex flex-col justify-center items-center text-center px-[100px] max-[1151px]:px-[10px]'>
-            <span className="font-extrabold text-black text-[20px]">THE TEAM</span>
-            <p className="text-[14px] text-black">Here at GALAXIA, our goal is to create the best PCs in the galaxy, and each one of us has a deep passion and takes pride in building and designing PCs. We are working to build top performance PCs that you will love, and we will enjoy the process of it.</p>
+          <div className='w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] max-[800px]:px-[10px]'>
+            <span className="font-extrabold text-black sm:text-[32px] text-[20px]">THE TEAM</span>
+            <p className="text-[20px] text-black">Here at GALAXIA, our goal is to create the best PCs in the galaxy, and each one of us has a deep passion and takes pride in building and designing PCs. We are working to build top performance PCs that you will love, and we will enjoy the process of it.</p>
           </div>
 
-        <div className='w-full bg-gray-300 h-[20rem]'>
+        <div className='w-full bg-white h-[43rem]'>
           <img
             src="/team.png"
             alt="team"
@@ -22,7 +22,7 @@ const People = () => (
           />
         </div>
 
-        <div className='w-full bg-gray-300 h-[20rem]'>
+        <div className='w-full bg-white h-[43rem]'>
         <img
             src="/process.png"
             alt="process"
@@ -30,9 +30,9 @@ const People = () => (
           />
         </div>
 
-        <div className='w-full bg-gray-300 h-[20rem] flex flex-col justify-center items-center text-center px-[100px] max-[1151px]:px-[10px]'>
-            <span className="font-extrabold text-black text-[20px]">THE HISTORY</span>
-            <p className="text-[14px] text-black">Here at GALAXIA, our goal is to create the best PCs in the galaxy, and each one of us has a deep passion and takes pride in building and designing PCs. We are working to build top performance PCs that you will love, and we will enjoy the process of it.</p>
+        <div className='w-full bg-white h-[43rem] flex flex-col justify-center items-center text-center px-[100px] cmin800:px-[10px]'>
+            <span className="font-extrabold text-black sm:text-[32px] text-[20px]">THE TEAM</span>
+            <p className="text-[20px] text-black">Here at GALAXIA, our goal is to create the best PCs in the galaxy, and each one of us has a deep passion and takes pride in building and designing PCs. We are working to build top performance PCs that you will love, and we will enjoy the process of it.</p>
           </div>
         </div>
         {/* <div className='mr-24 max-[1234px]:mr-0'>

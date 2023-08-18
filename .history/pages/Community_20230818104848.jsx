@@ -7,7 +7,7 @@ import React from 'react'
 const Community = () => (
   <div className='bg-primary-black overflow-hidden'>
     <div className='relative'>
-    <div className={`${styles.xPaddings} font-normal text-center text-secondary-white mt-20 flex-col flex flex-center`}>
+    <div className={`${styles.xPaddings} font-normal text-center text-secondary-white mt-4 flex-col flex flex-center`}>
       <span className="font-extrabold text-white sm:text-[40px] text-[32px]">COMMUNITY</span>
     </div>
     {/* <span className={`${styles.xPaddings} font-extrabold text-white text-[40px]`}>COMMUNITY</span> */}

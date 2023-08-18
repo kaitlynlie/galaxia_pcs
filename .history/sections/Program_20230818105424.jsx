@@ -9,7 +9,7 @@ const Program = () => {
     <section className={`${styles.xPaddings} relative z-0 py-8 flex flex-col justify-center items-center mt-4`}>
       <div className={`${styles.innerWidth} md:px-[100px] mb-0 items-center flex-col flex justify-center`}>
           <TypingText title='EARN 5% COMMISSION' textStyles='text-center' />
-          <div className="font-normal text-center text-secondary-white mt-4 flex-col flex flex-center items-center justify-center">
+          <div className="font-normal text-center text-secondary-white mt-10 flex-col flex flex-center items-center justify-center">
               <span className="font-extrabold text-white sm:text-[32px] text-[20px]">GALAXIA Creator Program</span>
               <p className="text-[20px] text-white">We would love to work with creators to empower those who are stars in making or are already shining! We focus on making items that we find interesting and would love to work with creators that do the same.</p>  
             <button 

@@ -6,8 +6,8 @@ const PCs = () => {
   return (
     <div className='bg-primary-black overflow-hidden'>
         <div className='relative'>
-        <div className={`font-normal text-center text-secondary-white mt-20 flex-col flex flex-center`}>
-          <span className="font-extrabold text-white sm:text-[40px] text-[32px]">GAMING PCS</span>
+        <div className={`${styles.xPaddings} font-normal text-center text-secondary-white mt-20 flex-col flex flex-center`}>
+          <span className="font-extrabold text-white sm:text-[40px] text-[32px]">COMMUNITY</span>
         </div>
             <Neptune />
             <Jupiter />

@@ -16,11 +16,11 @@ const Video = () => {
     }
   }
   return (
-    <div className={`h-screen relative mt-40 max-[1200px]:px-0 px-40 max-[1200px]:py-0`}>
+    <div className={`h-screen relative mt-20 max-[1200px]:px-0 px-80 py-20 max-[1200px]:py-0`}>
       <video
         src={video}
         ref={vidRef}
-        className='object-cover w-[100%] h-[100%]'
+        className='object-cover'
         type='video/mp4'
         loop
         controls = {false}
